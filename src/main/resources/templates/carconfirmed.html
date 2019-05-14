@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Confirmation</title>
+</head>
+<body>
+    <p th:inline="text">
+        Car Name: [[${car.name}]]<br/>
+        Car Type: [[${car.type}]]<br/>
+        Car Description: [[${car.description}]]<br/>
+    </p>
+</body>
+</html>
